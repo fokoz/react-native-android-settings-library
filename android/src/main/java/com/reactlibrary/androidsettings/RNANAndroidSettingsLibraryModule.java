@@ -89,7 +89,7 @@ public class RNANAndroidSettingsLibraryModule extends ReactContextBaseJavaModule
                     } else if ("oneplus".equalsIgnoreCase(manufacturer)) {
                         intentCl.setComponent(new ComponentName("com.oneplus.security", "com.oneplus.security.chainlaunch.view.ChainLaunchAppListActivity"));
                     } else if ("huawei".equalsIgnoreCase(manufacturer)) {
-                        intent.setComponent(new ComponentName("com.huawei.systemmanager", "com.huawei.systemmanager.optimize.process.ProtectActivity"));
+                        intentCl.setComponent(new ComponentName("com.huawei.systemmanager", "com.huawei.systemmanager.optimize.process.ProtectActivity"));
                     }
   
 
